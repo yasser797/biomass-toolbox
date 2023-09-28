@@ -38,4 +38,4 @@ pv.set_jupyter_backend('trame')  # Set the Jupyter backend for PyVista
 =======
 pv.set_jupyter_backend('trame')  # Set the Jupyter backend for PyVista
 ```
->>>>>>> f7ed12dad1ab376c84d307b6dd957d17efa23597
+
