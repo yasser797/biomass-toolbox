@@ -34,4 +34,4 @@ import pyvista as pv
 from pyvista import settings
 settings.default_backend = 'ipyvtk'  # Set the default backend for PyVista
 pv.set_jupyter_backend('trame')  # Set the Jupyter backend for PyVista
-==```
+```
