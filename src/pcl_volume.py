@@ -6,7 +6,7 @@ import alphashape
 from vedo import *
 
 def get_file_path():
-    base_path = pathlib.Path(__file__).parent.absolute()
+    base_path = pathlib.Path(__file__).parent.parent.absolute()
     relative_path = 'assets\\wood_piles\\wood_stack_1.ply' if os.name == "nt" else 'assets/wood_piles/wood_stack_1.ply'
     return f"{base_path}/{relative_path}"
 
