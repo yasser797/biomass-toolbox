@@ -44,7 +44,7 @@ def process_point_cloud(file_path):
     outer_pcl.points = o3d.utility.Vector3dVector(np.array(pcl_points))
 
     distances = pcl.compute_point_cloud_distance(outer_pcl)
-    threshold = 0.4 if len(pcl.points) >= 100000 else 0.01
+    threshold = 0.4 if len(pcl.points) >= 100000 else 0.1
     mask = np.asarray(distances) < threshold
 
     pcl_masked = pcl.select_by_index(np.where(mask)[0], invert=True)
