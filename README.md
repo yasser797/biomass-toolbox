@@ -14,9 +14,8 @@ pip install -r requirements.txt
 
 ## How it Works
 
-- The script determines the file path of a specified point cloud file.
-- It loads the point cloud and performs voxel down-sampling.
-- The script then computes the axis-aligned bounding box of the point cloud and flips the point cloud.
+- The script loads a specified point cloud and performs voxel down-sampling.
+- Then computes the axis-aligned bounding box of the point cloud and flips the point cloud.
 - An alpha shape of the combined points (original and flipped) is computed.
 - It generates random points on the faces of the alpha shape.
 - The script calculates distances between the original point cloud and the alpha shape and masks the point cloud based on these distances.
