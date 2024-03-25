@@ -1,5 +1,4 @@
 # Point Cloud Processing and Volume Calculation
-This Python script allows you to load and process a point cloud, ultimately calculating and displaying the volume of its convex hull. 
 
 To set up your Conda environment using the `environment.yml` file, follow these steps:
 
