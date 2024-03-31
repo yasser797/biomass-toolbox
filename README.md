@@ -1,4 +1,4 @@
-# Point Cloud Processing and Volume Calculation
+# Biomass-Toolbox
 
 To set up your Conda environment using the `environment.yml` file, follow these steps:
 
