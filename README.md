@@ -1,15 +1,10 @@
-# Point Cloud Processing and Volume Calculation
-This Python script allows you to load and process a point cloud, ultimately calculating and displaying the volume of its convex hull. 
-# Dependencies
-- Python 3.10.11
-- NumPy 1.24.2
-- Open3D 0.17.0
-- alphashape 1.3.1
-- pyvista 0.38.5
+# Biomass-Toolbox
 
+To set up your Conda environment using the `environment.yml` file, follow these steps:
 
 ```bash
-pip install -r requirements.txt
+conda env create -f environment.yml
+conda activate biomass
 ```
 
 ## How it Works
