@@ -6,6 +6,13 @@ To set up your Conda environment using the `environment.yml` file, follow these 
 conda env create -f environment.yml
 conda activate biomass
 ```
+## Usage
+
+To run the script, use the following command:
+
+```bash
+python biomass_volume_rerun.py <path_to_point_cloud>
+```
 
 ## How it Works
 
@@ -18,14 +25,4 @@ conda activate biomass
 - The convex hull and the point cloud are visualized.
 - Finally, the volume of the convex hull is calculated and displayed in both cubic meters and cubic feet.
 
-## Additional Configuration
 
-For PyVista backend settings:
-
-In your script, include:
-``` python
-import pyvista as pv
-from pyvista import settings
-settings.default_backend = 'ipyvtk'  # Set the default backend for PyVista
-pv.set_jupyter_backend('trame')  # Set the Jupyter backend for PyVista
-```
